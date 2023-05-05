@@ -1,5 +1,5 @@
 class Category < ApplicationRecord
-    has_many :books
+  has_many :books
 
-    validates :name, presence: true, length: {minimum: 3}
+  validates :name, presence: true, length: { minimum: 3 }
 end
