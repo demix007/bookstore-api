@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe Book, type: :model do
   # Association tests
 
-  it { should belong_to(:Category) }
+  it { should belong_to(:category) }
 
   # Validation tests
 
